@@ -43,7 +43,8 @@ int main(void)
     UCA0MCTL = UCBRS_0 + UCBRF_13 + UCOS16;
     UCA0CTL1 &= ~UCSWRST;
        
-     
+    transmit(dim);
+    transmit(term_string); 
     transmit(yellow_screen);                   // clear screen
     transmit(term_string);
        
