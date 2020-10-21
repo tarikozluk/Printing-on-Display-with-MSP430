@@ -65,3 +65,6 @@ int main(void)
     UCA0CTL1 &= ~UCSWRST;
     transmit(yellow_screen);                   // clear screen
     transmit(term_string);
+// Part for another installs according to projects with Nextion Display models
+// Install the necesseries in addition to this code
+}
