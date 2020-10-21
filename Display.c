@@ -1,3 +1,10 @@
+//Hazırlanmış Şablon hızlıca kullanmak için
+
+
+
+
+
+
 #include <msp430.h>
 #include <stdio.h>
 void transmit(const char *str);
